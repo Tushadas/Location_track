@@ -3,7 +3,7 @@ from phonenumbers import geocoder, carrier
 from opencage.geocoder import OpenCageGeocode
 import folium
 
-key = "16a80d8687ee4c61be0530b9de62c6a9"  # Geocoder API Key
+key = "   "  #replace with your Geocoder API Key
 number = input("Please give your number: ")
 new_number = phonenumbers.parse(number)
 location = geocoder.description_for_number(new_number, "IN")
